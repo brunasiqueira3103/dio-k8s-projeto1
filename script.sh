@@ -2,8 +2,8 @@
 
 echo -e "\nCriando as imagens...\n"
 
-docker image build -t cleiconde/projeto-backend:1.0 backend/.
-docker image build -t cleiconde/projeto-database:1.0 database/.
+docker image build -t brunasiqueira3103/dio-k8s-backend:1.0  backend/.
+docker image build -t brunasiqueira3103/dio-k8s-database:1.0 database/.
 
 echo -e "\nRealizando o push das imagens...\n"
 
